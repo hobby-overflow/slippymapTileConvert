@@ -36,7 +36,6 @@ def window_init():
     window.close()
 
 
-# https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames#Python
 def deg2num(lat_deg, lon_deg, zoom):
     print(type(lat_deg))
     lat_rad = math.radians(lat_deg)
