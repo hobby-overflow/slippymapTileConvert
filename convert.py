@@ -44,8 +44,6 @@ def deg2num(lat_deg, lon_deg, zoom):
     ytile = int((1.0 - math.asinh(math.tan(lat_rad)) / math.pi) / 2.0 * n)
     return (xtile, ytile)
 
-print(deg2num(42.882556, 141.577778, 11))
-
 
 if __name__ == "__main__":
     window_init()
