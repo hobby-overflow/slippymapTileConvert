@@ -17,7 +17,7 @@ python convert.py
 {x}{y}
 
 ## what is this?
-Lat Lng coordinate convert to slippymap and mapbox static tiles numbering.
+Convert Lat Lng Coordinate to tile number for slippymap and mapbox static tiles.
 
 ## Dependency Module(Python3)
 - PySimpleGUI
