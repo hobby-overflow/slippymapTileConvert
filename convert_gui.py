@@ -22,7 +22,6 @@ def window_init():
         event, values = window.read()
 
         if event is None:
-            print('exit')
             break
 
         if event == "Convert":
@@ -37,7 +36,6 @@ def window_init():
 
 
 def deg2num(lat_deg, lon_deg, zoom):
-    print(type(lat_deg))
     lat_rad = math.radians(lat_deg)
     n = 2.0 ** zoom
     xtile = int((lon_deg + 180.0) / 360.0 * n)
