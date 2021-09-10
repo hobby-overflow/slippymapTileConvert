@@ -12,9 +12,9 @@ def deg2num(lat_deg, lon_deg, zoom):
 
 
 try:
-    lat = int(input("Enter lat: "))
-    lon = int(input("Enter lon: "))
-    zoom = int(input("Enter zoom: "))
+    lat = float(input("Enter lat: "))
+    lon = float(input("Enter lon: "))
+    zoom = float(input("Enter zoom: "))
 except:
     print("Error Occured, please number")
 
